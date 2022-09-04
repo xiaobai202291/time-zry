@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   schedule: 
     # 定时任务 每天早上推送
-    - cron: '0 8 * * *'
+    - cron: '0 1 * * *'
 jobs:
 #将工作流程中运行的所有作业组合在一起
   build:
